@@ -2,7 +2,7 @@
 local Lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/7yhx/kwargs_Ui_Library/main/source.lua"))()
 
 local UI = Lib:Create{
-    Theme = "Discord",
+    Theme = "Light",
     Size = UDim2.new(0, 555, 0, 400),
     Minimized = true
 }
