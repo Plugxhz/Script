@@ -1,0 +1,398 @@
+
+local Lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/7yhx/kwargs_Ui_Library/main/source.lua"))()
+
+local UI = Lib:Create{
+    Theme = "Discord",
+    Size = UDim2.new(0, 555, 0, 400),
+    Minimized = true
+}
+
+-- Conjunto original de abas 1
+local Main1 = UI:Tab{
+    Name = "PLUG'S MAIN"
+}
+
+local Divider1 = Main1:Divider{
+    Name = "PLUG'S HUB - VERSÃO 1.0"
+}
+
+-- Scripts do conjunto original de abas 1
+local Script1 = Divider1:Button{
+    Name = "BEM VINDO AO MEU HUB!!",
+    Callback = function()
+
+        
+    end
+}
+
+local Script1 = Divider1:Button{
+    Name = "MEU DISCORD  → enzokkj ←",
+    Callback = function()
+
+        
+    end
+}
+local Script2 = Divider1:Button{
+    Name = "COPIAR LINK DO MEU SERVIDOR DO DISCORD (CONFIRA NO /CONSOLE)",
+    Callback = function()
+        -- Copia o link do Discord do Annie Hub para a área de transferência
+        setclipboard("https://discord.gg/4a3SznvyYY")
+
+        -- Exibe uma mensagem no console do jogo
+        warn("Link do Discord copiado para a área de transferência. Cole (Ctrl+V) para acessar.")
+    end
+}
+
+-- Conjunto original de abas 2
+local Main2 = UI:Tab{
+    Name = "PLUG'S FARM"
+}
+
+local Divider2 = Main2:Divider{
+    Name = "BLOX FRUITS FARM - SCRIPTS DO OPs DO MOMENTO"
+}
+
+-- Scripts do conjunto original de abas 2
+local Script1 = Divider2:Button{
+    Name = "Executar Vector Hub",
+    Callback = function()
+        _G.Mode = "English"
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/MBPC"))()
+    end
+}
+
+local Script2 = Divider2:Button{
+    Name = "Executar Annie Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Anniecuti/Free-Scr/main/Annie-Hub.lua"))()
+    end
+}
+
+local Script3 = Divider2:Button{
+    Name = "Executar REDzHUB",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+    end
+}
+
+local Script3 = Divider2:Button{
+    Name = "Executar Tsuo Hub",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Tsuo7/bloxfruits-/main/Tsuo-Hub'))()
+    end
+}
+local Script3 = Divider2:Button{
+    Name = "Executar HoHo Hub",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+    end
+}
+local Script3 = Divider2:Button{
+    Name = "Executar Fai-Fao-Ver Hub",
+    Callback = function()
+        loadstring(jogo:HttpGet('https://raw.githubusercontent.com/pokelok/Gomu-2.0/main/2'))()
+    end
+}
+local Script3 = Divider2:Button{
+    Name = "Executar Zekrom Hub",
+    Callback = function()
+        loadstring(Jogo:HttpGet"https://raw.githubusercontent.com/ahmadsgamer2/Zekrom-Hub-X/main/Zekrom-Hub-X-exe")()
+    end
+}
+local Script3 = Divider2:Button{
+    Name = "Executar FTS Hub",
+    Callback = function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/Tulam2000/FTS-HUB/main/FTS%20x%20Hub')))()
+    end
+}
+local Script3 = Divider2:Button{
+    Name = "Executar Domadic Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript"))()
+    end
+}
+local Script3 = Divider2:Button{
+    Name = "Executar Makuro Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xQuartyx/DonateMe/main/OldBf"))()
+    end
+}
+local Script3 = Divider2:Button{
+    Name = "Executar Makuri Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JuninhoOGado/ScriptsSite/main/Script135"))()
+    end
+}
+local Script3 = Divider2:Button{
+    Name = "Executar Gomu-2.0 Hub",
+    Callback = function()
+        loadstring(jogo:HttpGet('https://raw.githubusercontent.com/pokelok/Gomu-2.0/main/2'))()
+    end
+}
+local Script3 = Divider2:Button{
+    Name = "Executar (Free)W-Azure Hub",
+    Callback = function()
+        getgenv().Team = "Marines"
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+    end
+}
+local Script3 = Divider2:Button{
+    Name = "Executar (Free)Banana Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
+    end
+}
+local Script3 = Divider2:Button{
+    Name = "Executar GGHost Hub",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/GGhostVN/GhostLord/main/Main'))()
+    end
+}
+local Script3 = Divider2:Button{
+    Name = "Executar Mango Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://gitlab.com/L1ZOT/mango-hub/-/raw/main/Mango-Bloxf-Fruits-Beta"))()
+    end
+}
+local Script3 = Divider2:Button{
+    Name = "Executar East Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Brineeee/EastHub/main/lua"))()
+    end
+}
+local Script3 = Divider2:Button{
+    Name = "Executar Madox Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Fiend1sh/FiendMain/main/MadoxHubKey", 
+        true))()
+    end
+}
+local Script3 = Divider2:Button{
+    Name = "Executar Hostile Hub",
+    Callback = function()
+        getgenv().key = "Hostile"
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/The-telligence/main/MC%20KSystem%202"))()
+    end
+}
+local Script3 = Divider2:Button{
+    Name = "Executar VG Hub",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+    end
+}
+local Script3 = Divider2:Button{
+    Name = "Executar ATR Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/ATR",true))()
+    end
+}
+local Script3 = Divider2:Button{
+    Name = "Executar Some-X Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/2rmDLJiE"))()
+    end
+}
+local Script3 = Divider2:Button{
+    Name = "Executar 1XLII Hub",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/armch063/BF-1XLIIHUB-V3/main/README.md', true))()
+    end
+}
+local Script3 = Divider2:Button{
+    Name = "Executar Blaze-X Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/WindowsXp12/BlxzeRBLX/main/BLxzeHub.lua"))()
+    end
+}
+local Script3 = Divider2:Button{
+    Name = "Executar String-X Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/StringV2/StringHub/main/BF.txt", true))()
+    end
+}
+local Script3 = Divider2:Button{
+    Name = "Executar Playback-X Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NeaPchX2/Playback-X-HUB/main/Protected.lua.txt"))()
+    end
+}
+local Script3 = Divider2:Button{
+    Name = "Executar Unique Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/UPDATE-16-Blox-Fruits-Unique-Hub-LEAK-6735"))()
+    end
+}
+local Script3 = Divider2:Button{
+    Name = "Executar Tuper Hub",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/TUPERX/TUPERX/Main/MenuBF/README.md'))()
+    end
+}
+local Script3 = Divider2:Button{
+    Name = "Executar Tawan Hub",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/kill55547/TAWAN_HUB/main/hub.lua.txt', true))()
+    end
+}
+local Script3 = Divider2:Button{
+    Name = "Executar Neva Hub",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
+    end
+}
+local Script3 = Divider2:Button{
+    Name = "Executar Thunder-Z Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ThundarZ/Welcome/main/Main/Loader/AllGame.lua"))()
+    end
+}
+-- Conjunto original de abas 3
+local Main1 = UI:Tab{
+    Name = "PLUG'S PVP"
+}
+
+local Divider1 = Main1:Divider{
+    Name = "BLOX FRUITS PVP - MELHORES SCRIPTS PARA PVP & BOUNTY"
+}
+
+-- Scripts do conjunto original de abas 3
+local Script1 = Divider1:Button{
+    Name = "Executar Kit Hub (Hitbox)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/vkTrolls/Bounty-Hunter-Kit/main/script"))()
+    end
+}
+
+local Script2 = Divider1:Button{
+    Name = "Executar Nyula Hub (Aimbot)",
+    Callback = function()
+        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/nyulachan/nyula/main/nyuladhm"))()
+    end
+}
+
+local Script3 = Divider1:Button{
+    Name = "Executar Hoho Hub (Autobounty)",
+    Callback = function()
+        repeat wait() until game:IsLoaded()
+_G["HoHo Hub Auto Bounty V3"] = {
+    ["Avatar"] = "https://i.ibb.co/DL019xs/d5b46cd41ff4610dd5f6f0a64ff66dfa.png",
+
+  	["Farm Method"] = "Normal", -- Normal or Gun
+    ["Select Team"] = "Marine", -- Pirate/Marine
+    ["Discord Webhook"] = "",
+	["Bypass Teleport"] = true,
+	["Max Level Distance"] = 612, -- 612 is took from wiki but u can change it
+	["Don't attack friends"] = true,
+    ["Don't attack player have cup"] = false,
+    ["Distance Attack Y"] = 6, -- Shark Race = 0; Another >= 6
+    ["Chat After Kill"] = {
+        ["Active"] = true,
+        ["List Chat"] = {"i have a good gaming chair","No skill? Use Hoho hub"},
+    },
+    ["Yourself"] = {
+        ["Invisible From Ken"] = true,
+        ["No Stun"] = true,
+    },
+    ["SafeZone"] = {Enabled = true, ["Health Left (%)"] = 40, ["Wait Until Heal (%)"] = 90},
+    ["Time Control"] = {
+        ["Max Time Target Player"] = 120,
+    },
+    ["Abilities"] = {
+        ["Auto Click"] = true,
+        ["Melee"] = {
+            Z = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+            X = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+            C = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+        },
+        ["Sword"] = {
+            Z = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+            X = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+        },
+        ["Gun"] = {
+            Z = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+            X = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+        },
+        ["Fruit"] = {
+            Z = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+            X = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+            C = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+            V = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+            F = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+        },
+    },
+}
+loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+    end
+}
+local Script3 = Divider1:Button{
+    Name = "Executar Thunder-Z Hub (AutoLock)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Aimbot"))()
+    end
+}
+-- Conjunto original de abas 4
+local Main1 = UI:Tab{
+    Name = "PLUG'S PAGO"
+}
+
+local Divider1 = Main1:Divider{
+    Name = "BLOX FRUITS PAGO - MELHORES SCRIPTS PAGOS - LINK DISCORD"
+}
+
+-- Scripts do conjunto original de abas 4
+local Script1 = Divider1:Button{
+    Name = "Link - PAGO-Banana Hub (CONFIRA NO /CONSOLE)",
+    Callback = function()
+        -- Copia o link do Discord do Annie Hub para a área de transferência
+        setclipboard("https://discord.gg/chuoihub")
+
+        -- Exibe uma mensagem no console do jogo
+        warn("Link do Discord copiado para a área de transferência. Cole (Ctrl+V) para acessar.")
+    end
+}
+
+local Script2 = Divider1:Button{
+    Name = "Link - PAGO-Maru Hub (CONFIRA NO /CONSOLE)",
+    Callback = function()
+        -- Copia o link do Discord do Annie Hub para a área de transferência
+        setclipboard("https://discord.gg/maruhub")
+
+        -- Exibe uma mensagem no console do jogo
+        warn("Link do Discord copiado para a área de transferência. Cole (Ctrl+V) para acessar.")
+    end
+}
+
+local Script3 = Divider1:Button{
+    Name = "Link - PAGO-W-Azure Hub (CONFIRA NO /CONSOLE)",
+    Callback = function()
+        -- Copia o link do Discord do Annie Hub para a área de transferência
+        setclipboard("https://discord.com/invite/w-azure")
+
+        -- Exibe uma mensagem no console do jogo
+        warn("Link do Discord copiado para a área de transferência. Cole (Ctrl+V) para acessar.")
+    end
+}
+-- Conjunto original de abas 5
+local Main1 = UI:Tab{
+    Name = "FECHAR"
+}
+
+local Divider1 = Main1:Divider{
+    Name = "CLIQUE NO BOTÃO ABAIXO PARA ENCERRAR A INTERFACE"
+}
+
+-- Scripts do conjunto original de abas 5
+
+local Quit1 = Divider1:Button{
+    Name = "ENCERRAR PLUG'S HUB",
+    Callback = function()
+        UI:Quit{
+            Message = "Foda-se...",
+            Length = 1
+        }
+    end
+}
+-- Adiciona a capacidade de mover a UI
+UI:MakeDraggable()
+
+
